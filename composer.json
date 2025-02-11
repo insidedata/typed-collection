@@ -1,0 +1,20 @@
+{
+    "name": "insidedata/support",
+    "description": "A collection of support functions for Laravel",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Insidedata\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew Southwell",
+            "email": "andrew@insidedata.co.uk"
+        }
+    ],
+    "require": {}
+}
